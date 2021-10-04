@@ -1,15 +1,17 @@
-let cdc:string = "teste"
-
 function Length(str = ""){
-    let result:number = 0
 
-
-    for(let i = 0; true; i++){
-        if(str[i] == undefined){
-            return i
-        }
+    // for(let i = 0; true; i++){
+    //     if(str[i] == undefined){
+    //         return i
+    //     }
+    // }
+    let i = 0
+    while (str[i]) {
+        i++ 
     }
+    return i 
 }
 
-console.log(Length(cdc));
+console.log(Length("chaine de caractère"));
+
 
