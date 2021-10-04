@@ -4,12 +4,12 @@ function Length(str = ""){
     let result:number = 0
 
 
-    for(let i = 0; i >= 0; i++){
-        if(){}
+    for(let i = 0; true; i++){
+        if(str[i] == undefined){
+            return i
+        }
     }
-   
 }
 
 console.log(Length(cdc));
-console.log(cdc.length);
 
