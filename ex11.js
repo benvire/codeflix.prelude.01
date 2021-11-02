@@ -6,4 +6,4 @@ function last(content, len=1){
     console.log(result);
 }
 
-last("zeubi", 3)
+last("zeubi", 4)
