@@ -1,4 +1,4 @@
-function kebabCase(content){
+function snakeCase(content){
     number = 0
     result = ""
    for(let i=0; i < content.length; i++){
@@ -24,4 +24,4 @@ function kebabCase(content){
    console.log(result)
 }
 
-kebabCase("ChaineDe-Caractère-")
+snakeCase("ChaineDe-Caractère-")
